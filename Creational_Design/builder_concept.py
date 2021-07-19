@@ -45,7 +45,8 @@ class Builder(IBuilder):
 
 class Product():
     "The Product"
-    def __init__(self):                                                                                                                                 self.parts = []
+    def __init__(self):
+        self.parts = []
 
 class Director:
     "The Director, building a complex representation."
